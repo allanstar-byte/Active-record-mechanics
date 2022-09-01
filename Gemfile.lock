@@ -16,7 +16,7 @@ GEM
     i18n (1.8.10)
       concurrent-ruby (~> 1.0)
     minitest (5.14.4)
-    sqlite3 (1.4.2)
+    sqlite3 (1.4.4)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
     zeitwerk (2.4.2)
@@ -24,10 +24,11 @@ GEM
 PLATFORMS
   arm64-darwin-21
   universal-darwin-20
+  x86_64-linux
 
 DEPENDENCIES
   activerecord (~> 6.1)
   sqlite3 (~> 1.4)
 
 BUNDLED WITH
-   2.2.32
+   2.3.21
